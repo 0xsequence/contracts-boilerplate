@@ -1,14 +1,14 @@
 {
   "name": "contracts-boiler-plate",
   "version": "0.0.1",
-  "description": "Boiler Plate for smart contract repositories",
+  "description": "Boilerplate for smart contract repositories",
   "repository": "https://github.com/0xsequence/contracts-boiler-plate",
   "license": "Apache-2.0",
   "main": "gen/adapter/index.js",
   "types": "gen/typechain/index.ts",
   "scripts": {},
   "optionalDependencies": {
-    "ethers": "^5.0.32"
+    "ethers": "^5.7.0"
   },
   "dependencies": {},
   "devDependencies": {},

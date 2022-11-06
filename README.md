@@ -1,10 +1,19 @@
-Smart Contract Boiler Plate
-===============================
-Boiler plate repository using Typescript, Typechain, ethers and hardhat for Solidity smart contract deployment and testing.
+Solidity Smart Contract Boilerplate
+===================================
 
-## How to Use
-Make sure to update the [tenderly settings]() to correctly verify your contracts on Etherscan and Tenderly.
+Boilerplate repository using Typescript, Typechain, ethers and hardhat for Solidity
+smart contract deployment and testing.
+
+## How to use
+
+1. Install via `pnpm install`
+2. Write contracts in `src/contracts/`
+3. Write tests in `tests/`
+4. Build with `pnpm build`
+
 
 ## LICENSE
+
 Copyright (c) 2017-present [Horizon Blockchain Games Inc](https://horizon.io).
-Licensed under [Apache-2.0](https://github.com/0xsequence/erc-1155/blob/master/LICENSE)
+
+Licensed under [Apache-2.0](./LICENSE)
