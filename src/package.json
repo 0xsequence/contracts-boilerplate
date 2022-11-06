@@ -5,7 +5,7 @@
   "repository": "https://github.com/0xsequence/contracts-boiler-plate",
   "license": "Apache-2.0",
   "main": "gen/adapter/index.js",
-  "types": "gen/typechain/index.ts",
+  "types": "gen/adapter/index.d.ts",
   "scripts": {},
   "optionalDependencies": {
     "ethers": "^5.7.0"
