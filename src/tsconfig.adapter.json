@@ -26,11 +26,11 @@
     "checkJs": false,
 
     "baseUrl": ".",
-    "outDir": "gen/adapter",
+    "outDir": "adapter",
     "lib": ["es2020"],
   },
 
   "include": [
-    "./gen/typechain"
+    "./gen-typechain"
   ]
 }

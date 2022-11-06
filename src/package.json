@@ -4,8 +4,8 @@
   "description": "Boilerplate for smart contract repositories",
   "repository": "https://github.com/0xsequence/contracts-boiler-plate",
   "license": "Apache-2.0",
-  "main": "gen/adapter/index.js",
-  "types": "gen/adapter/index.d.ts",
+  "main": "adapter/index.js",
+  "types": "adapter/index.d.ts",
   "scripts": {},
   "optionalDependencies": {
     "ethers": "^5.7.0"
@@ -14,5 +14,11 @@
   "devDependencies": {},
   "keywords": [
     "Ethereum"
+  ],
+  "files": [
+    "adapter",
+    "artifacts",
+    "contracts",
+    "networks"
   ]
 }
