@@ -1,4 +1,3 @@
 cache
 artifacts/build-info
 artifacts/**/*.dbg.json
-gen-typechain

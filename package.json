@@ -4,10 +4,10 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "pnpm clean && pnpm compile && pnpm adapter",
-    "clean": "rimraf src/artifacts && rimraf src/gen && rimraf cache",
+    "clean": "rimraf src/artifacts && rimraf src/adapter && rimraf src/cache",
     "compile": "hardhat --max-memory 4096 compile",
     "adapter": "pnpm adapter:gen && pnpm adapter:build",
-    "adapter:gen": "rimraf src/gen-typechain && typechain --target ethers-v5 --out-dir src/gen-typechain './src/artifacts/contracts/**/*[^dbg].json'",
+    "adapter:gen": "rimraf src/cache/typechain && typechain --target ethers-v5 --out-dir src/cache/typechain './src/artifacts/contracts/**/*[^dbg].json'",
     "adapter:build": "rimraf src/adapter && tsc -p ./src/tsconfig.adapter.json",
     "test": "pnpm build && hardhat test",
     "quicktest": "hardhat test",
