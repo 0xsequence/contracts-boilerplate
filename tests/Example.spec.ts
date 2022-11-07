@@ -1,7 +1,7 @@
-import * as ethers from 'ethers'
+import { ethers } from 'ethers'
 import { expect} from './utils'
 
-import { Example } from 'src/gen/typechain'
+import { Example } from 'src'
 
 ethers.utils.Logger.setLogLevel(ethers.utils.Logger.levels.ERROR)
 

@@ -17,7 +17,7 @@ const ganacheNetwork = {
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: '0.7.6',
+    version: '0.8.17',
     settings: {
       optimizer: {
         enabled: true,
@@ -40,11 +40,6 @@ const config: HardhatUserConfig = {
       url: 'http://localhost:8555'
     }
   },
-  etherscan: {
-    // Your API key for Etherscan
-    // Obtain one at https://etherscan.io/
-    apiKey: networkConfig('mainnet').etherscan
-  },
   mocha: {
     timeout: process.env.COVERAGE ? 15 * 60 * 1000 : 30 * 1000
   },
@@ -54,6 +49,13 @@ const config: HardhatUserConfig = {
     gasPrice: 21,
     showTimeSpent: true
   },
+  // @ts-ignore
+  etherscan: {
+    // Your API key for Etherscan
+    // Obtain one at https://etherscan.io/
+    apiKey: networkConfig('mainnet').etherscan
+  },
+  // @ts-ignore
   tenderly: {
     project: "project/name",
     username: "username",
