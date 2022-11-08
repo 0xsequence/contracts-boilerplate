@@ -4,7 +4,7 @@ import ora from 'ora'
 
 import {
   Example__factory,
-} from '../src/gen/typechain'
+} from 'src'
 
 import { UniversalDeployer } from '@0xsequence/deployer'
 import { ContractFactory, BigNumber, providers } from 'ethers'

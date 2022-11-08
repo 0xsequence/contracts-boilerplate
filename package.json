@@ -66,6 +66,8 @@
     "hardhat": "2.12.2",
     "hardhat-gas-reporter": "1.0.9",
     "husky": "^8.0.1",
+    "lodash": "^4.17.21",
+    "ora": "^6.1.2",
     "rimraf": "^3.0.2",
     "solhint": "^3.3.4",
     "solidity-coverage": "^0.8.2",
